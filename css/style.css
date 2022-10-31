@@ -1,0 +1,144 @@
+
+@media only screen and (min-width:420px) {
+    h1{font-size: 50px;}
+}
+
+* {
+    font-family:'Playfair Display', serif ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(240 240 240);
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:firebrick;
+  }
+
+ul li{
+    display: inline block;
+    margin-right: 10px;
+    float: left;
+}
+
+#search {
+    margin: 10px;
+}
+
+.header_right {
+    float: right;
+}
+
+.title_index{
+    margin-top:5px;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    font-size: 150px;
+    color:  rgb(231, 231, 231);
+    background-position: center;
+    background-size: cover;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.2)) ,url('https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img,w_1000,h_423/https://www.useyournoodles.eu/wp-content/uploads/how-to-take-the-perfect-action-shot-in-food-photograpy-01-Custom-1000x423.jpg');
+}
+
+.title_autumn{
+    margin-top:5px;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    font-size: 150px;
+    color: rgb(231, 231, 231);
+    background-position: center;
+    background-size: cover;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.2)) ,url('https://www.dailyherald.com/storyimage/DA/20190217/BUSINESS/190219316/AR/0/AR-190219316.jpg&updated=201902151104&MaxW=900&maxH=900&noborder&Q=80');
+}
+
+.title_pumpkin {
+    margin-top:5px;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    font-size: 150px;
+    color: rgb(231, 231, 231);
+    background-position: center;
+    background-size: cover;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.2)) ,url('https://www.ambitiouskitchen.com/wp-content/uploads/2021/09/Pumpkin-Spice-Latte-4.jpg');
+
+    flex-direction: initial;
+    flex-wrap: initial;
+    justify-content: initial;
+    align-items: initial;
+    align-content: initial;
+}
+
+
+h1 img {
+    opacity: 70%;
+}
+
+a:link {
+    text-decoration: none;
+    color:orangered
+}
+
+a:visited {
+    color:orangered
+}
+
+a:hover {
+    color:seashell;
+}
+
+a:active {
+    color:rgb(107, 21, 21)
+}
+
+.btn {
+    background-color:floralwhite;
+    border-color: darkgray;
+}
+
+#introduction {
+    background-color: rgb(240 240 240);
+    width: 100%;
+    padding: 20px 100px;
+}
+
+.introduction {
+    width: 100%;
+    margin: 0 100px 0 100px;
+    font-size: 30px;
+}
+
+.stats {
+    width: 100%;
+    margin: 0 100px;
+}
+
+.instructions {
+    width: 100%;
+    margin: 0 100px 0 100px;
+}
+
+.ingredients{
+    margin: 0 100px;
+}
+
+.footer ul li{
+    width:100%;
+    display: inline;
+    text-align: center;
+    margin-right: 10px;
+}
+
