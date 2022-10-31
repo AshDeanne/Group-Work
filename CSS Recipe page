@@ -1,6 +1,38 @@
-.navbar_options{
-    display: inline-block;
-    margin-right: 20px;
+* {
+    font-family:'Playfair Display', serif ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(240 240 240);
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:firebrick;
+  }
+
+ul li{
+    display: inline block;
+    margin-right: 10px;
+    float: left;
+}
+
+#search {
+    margin: 10px;
+}
+
+.header_right {
+    float: right;
 }
 
 
@@ -114,4 +146,11 @@ row-gap: 2rem;
 .single-ingredient {
 border-bottom: 2px solid #cbd5e1;
 padding-bottom: 0.75rem;
+}
+
+.footer ul li{
+    width:100%;
+    display: inline;
+    text-align: center;
+    margin-right: 10px;
 }
