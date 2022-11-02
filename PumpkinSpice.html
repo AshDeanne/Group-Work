@@ -1,61 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pumpkin Spice Latte</title>
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/style22.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Poller+One&family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a7a7974287.js" crossorigin="anonymous"></script>
+    <style type="text/css">
+      .title_index {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url("https://www.ambitiouskitchen.com/wp-content/uploads/2021/09/Pumpkin-Spice-Latte-4.jpg");
+      }
+    </style>
+  </head>
+  <body>
     <header>
-        <ul id="header_left">
-            <li>Home</li>
-            <li>Autumn 2022</li>
-        </ul>
-        <form id="search_bar"> 
+      <ul class="header">
+        <li class="header">
+          <a href="./index.html">Home</a>
+        </li>
+        <li class="header">
+          <a href="./Autumn22.html">Autumn 2022</a>
+        </li>
+        <li class="header header_right">
+          <form id="search_bar">
             <input type="text" id="search" name="search">
             <input type="submit" value="Search">
-        </form>
-        <ul id="header_right">
-            <li>Sign In</li>
-        </ul>
+          </form>
+        </li>
+        <li class="header header_right">
+          <a href="./"> Sign In </a>
+        </li>
+      </ul>
     </header>
-    <h1 id="header" style="background-image: url('https://www.ambitiouskitchen.com/wp-content/uploads/2021/09/Pumpkin-Spice-Latte-4.jpg');"> Pumpkin Spice Latte</h1>
-    <p class="introduction"> The ultimate autumn icon! This modern classic is beautifully spiced and creamy, and warms you down to your boots. Here's how to get your hands wrapped around a mug of your own. This recipe is naturally sweetened, vegan and dairy-free, we use oat milk but feel free to substitute your own dairy/non-dairy option. </p>
-    <p class="stats"> Serves: 1</p>
-    <p class="stats"> Prep Time: 5 minutes</p>
-    <p class="stats"> Cooking Time: 5 minutes</p>
-    <p class="stats"> Total Time: 10 minutes</p>
-
-    <div class="ingredients">
-        <h3>Ingredients</h3>
-        <ul>
-            <li>2 tsp pumpkin puree</li>
-            <li>1 pinch of ground cinnamon, plus extra to serve (or use umpkin spice)</li>
-            <li>1 pinch of ground ginger</li>
-            <li>1 pinch of ground nutmeng</li>
-            <li>30ml espresso or strong coffee</li>
-            <li>250 milk</li>
-        </ul>
-    </div>
-
-    <div class="recipe_body">
-<h4>STEP 1</h4>
-<p>Put the pumpkin purée in a large heatproof glass or mug. Stir in the spices and espresso or strong coffee.</p>
-<h4>STEP 2</h4>
-<p>Heat the milk in a saucepan over a low heat until steaming and frothy. Pour into the glass or mug, and spoon over any froth. Stir to combine, then dust with more cinnamon or some pumpkin spice before serving.</p>
-    </div>
-
+    <h1 class="title_index"> Pumpkin Spice Latte</h1>
+    <!-- <div class="recipes"> -->
+    <!-- <div class="row row-cols-1 row-cols-md-4" id="cards"><div class="col mb-4"></div></div> -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img src="https://t4.ftcdn.net/jpg/05/17/45/77/360_F_517457766_nwEWbs2uCUNhKSBlIBycV00kyzDcbJLp.jpg" class="img recipe-hero-img" />
+          <article class="recipe-info">
+            <h2>Pumpkin Spice Latte</h2>
+            <p> The ultimate autumn icon! This modern classic is beautifully spiced and creamy, and warms you down to your boots. Here's how to get your hands wrapped around a mug of your own. This recipe is naturally sweetened, vegan and dairy-free, we use oat milk but feel free to substitute your own dairy/non-dairy option.  </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fa-solid fa-kitchen-set"></i>
+                <h5>prep time</h5>
+                <p>5 min</p>
+              </article>
+              <article>
+                <i class="fa-solid fa-clock"></i>
+                <h5>cook time</h5>
+                <p>5 min</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>1 serving</p>
+              </article>
+            </div>
+          </article>
+        </section>
+        <section class="recipe-content">
+          <article>
+            <h4>Instructions</h4>
+            <div class="single-instruction">
+              <header>
+                <p>Step 1</p>
+                <div></div>
+              </header>
+              <p> Put the pumpkin purée in a large heatproof glass or mug. Stir in the spices and espresso or strong coffee.</p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>Step 2</p>
+                <div></div>
+              </header>
+              <p> Heat the milk in a saucepan over a low heat until steaming and frothy.  </p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>Step 3</p>
+                <div></div>
+              </header>
+              <p> Pour into the glass or mug, and spoon over any froth.  </p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>Step 4</p>
+                <div></div>
+              </header>
+              <p> Stir to combine, then dust with more cinnamon or some pumpkin spice before serving. </p>
+              <a href="https://www.youtube.com/watch?v=v18kr9Y9bT8">Video link for recipe</a>
+            </div>
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>Ingredients</h4>
+              <p class="single-ingredient">2 tsp pumpkin puree</p>
+              <p class="single-ingredient">1 pinch of ground cinnamon, plus extra to serve (or use pumpkin spice)</p>
+              <p class="single-ingredient">1 pinch of ground ginger</p>
+              <p class="single-ingredient">1 pinch of ground nutmeg</p>
+              <p class="single-ingredient">30ml espresso or strong coffee</p>
+              <p class="single-ingredient">250 milk</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
     <footer>
-        <ul id="footer_left">
-            <li>About Us</li>
-            <li>FAQ</li>
-        </ul>
-        <ul id="footer_right">
-            <li>Contact Us</li>
-            <li>Jobs</li>
-        </ul>
+      <ul class="footer">
+        <li a href="">About Us</li>
+        <li a href="">FAQ</li>
+        <li a href="">Contact Us</li>
+        <li a href="">Jobs</li>
     </footer>
-</body>
+  </body>
 </html>
