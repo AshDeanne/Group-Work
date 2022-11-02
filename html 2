@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Recipes</title>
+    <link rel="stylesheet" href="./style22.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Poller+One&family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a7a7974287.js" crossorigin="anonymous"></script>
+    <style type="text/css">
+      .title_index {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url("https://realfood.tesco.com/media/images/RFO-1400x919-Mushroom-stroganoff-7c39d779-ccc9-4159-8407-e39fb11a07b9-0-1400x919.jpg");
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul class="header">
+        <li class="header">
+          <a href="./index.html">Home</a>
+        </li>
+        <li class="header">
+          <a href="./Autumn22.html">Autumn 2022</a>
+        </li>
+        <li class="header header_right">
+          <form id="search_bar">
+            <input type="text" id="search" name="search">
+            <input type="submit" value="Search">
+          </form>
+        </li>
+        <li class="header header_right">
+          <a href="./"> Sign In </a>
+        </li>
+      </ul>
+    </header>
+    <h1 class="title_index"> Mushroom Stroganoff</h1>
+    <!-- <div class="recipes"> -->
+    <!-- <div class="row row-cols-1 row-cols-md-4" id="cards"><div class="col mb-4"></div></div> -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img src=https://realfood.tesco.com/media/images/RFO-1400x919-Mushroom-stroganoff-7c39d779-ccc9-4159-8407-e39fb11a07b9-0-1400x919.jpg class="img recipe-hero-img" />
+          <article class="recipe-info">
+            <h2>mushroom stroganoff</h2>
+            <p> A few clever substitutions can make this traditional creamy casserole low in fat and calories. </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fa-solid fa-kitchen-set"></i>
+                <h5>prep time</h5>
+                <p>10 min</p>
+              </article>
+              <article>
+                <i class="fa-solid fa-clock"></i>
+                <h5>cook time</h5>
+                <p>20 min</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>2 servings</p>
+              </article>
+            </div>
+          </article>
+        </section>
+        <section class="recipe-content">
+          <article>
+            <h4>Instructions</h4>
+            <div class="single-instruction">
+              <header>
+                <p>Step 1</p>
+                <div></div>
+              </header>
+              <p> Heat the olive oil in a large non-stick frying pan and soften the onion for about 5 mins. </p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>Step 2</p>
+                <div></div>
+              </header>
+              <p> Add the paprika and garlic, then cook for 1 min more. Add the mushrooms and cook on a high heat, stirring often, for about 5 mins. </p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>Step 3</p>
+                <div></div>
+              </header>
+              <p> Pour in the stock and Worcestershire sauce. Bring to the boil, bubble for 5 mins until the sauce thickens, then turn off the heat and stir through the soured cream and most of the parsley. Make sure the pan is not on the heat or the sauce may split. </p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>Step 4</p>
+                <div></div>
+              </header>
+              <p> Heat the wild rice following pack instructions, then stir through the remaining chopped parsley and serve with the stroganoff. </p>
+              <a href="https://www.youtube.com/watch?v=zhTO0BGtVDc">Video link for recipe</a>
+            </div>
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>Ingredients</h4>
+              <p class="single-ingredient">2 tsp olive oil</p>
+              <p class="single-ingredient">1 onion, finely chopped</p>
+              <p class="single-ingredient">1 tbsp sweet paprika</p>
+              <p class="single-ingredient">2 garlic cloves, crushed</p>
+              <p class="single-ingredient">300g mixed mushrooms, chopped</p>
+              <p class="single-ingredient">150ml low-sodium beef or vegetable stock</p>
+              <p class="single-ingredient">1 tbsp Worcestershire sauce, or vegetarian alternative</p>
+              <p class="single-ingredient">3 tbsp half-fat soured cream</p>
+              <p class="single-ingredient">Small bunch of parsley, roughly chopped</p>
+              <p class="single-ingredient">250g pouch cooked wild rice</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+    <footer>
+      <ul class="footer">
+        <li a href="">About Us</li>
+        <li a href="">FAQ</li>
+        <li a href="">Contact Us</li>
+        <li a href="">Jobs</li>
+    </footer>
+  </body>
+</html>
