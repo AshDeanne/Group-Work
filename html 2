@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delicious Recipes</title>
-    <link rel="stylesheet" href="./style22.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Poller+One&family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
@@ -117,6 +117,7 @@
         </section>
       </div>
     </main>
+
     <footer>
       <ul class="footer">
         <li a href="">About Us</li>
