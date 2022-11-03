@@ -1,48 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autumn 2022</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&family=Poller+One&family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <ul id="header_left">
-            <li>Home</li>
-            <li>Autumn 2022</li>
-        </ul>
-        <form id="search_bar"> 
+        <ul class="header">
+            <li class="header"><a href="./index.html">Home</a></li>
+            <li class="header"><a href="./Autumn22.html">Autumn 2022</a></li>
+            <li class="header header_right" > <form id="search_bar">
             <input type="text" id="search" name="search">
             <input type="submit" value="Search">
-        </form>
-        <ul id="header_right">
-            <li>Sign In</li>
+        </form> </li>
+        <li class="header header_right"><a href="./"> Sign In </a> </li>
         </ul>
     </header>
-<h1 id="header" style="background-image: url('https://www.dailyherald.com/storyimage/DA/20190217/BUSINESS/190219316/AR/0/AR-190219316.jpg&updated=201902151104&MaxW=900&maxH=900&noborder&Q=80');"> Autumn 2022</h1>
+<h1 class="title_autumn"> Autumn 2022</h1>
+
 <div class="recipes">
-    <p class="recipe" style="background-image: url('https://www.ambitiouskitchen.com/wp-content/uploads/2021/09/Pumpkin-Spice-Latte-4.jpg');">Pumpkin Spice Latte</p>
-    <p class="recipe" style="background-image: url('https://www.sainsburysmagazine.co.uk/uploads/media/1800x1800/02/6882-Mushroom-stroganoff.jpg?v=1-0');">Mushroom Stroganoff</p>
-    <p class="recipe" style="background-image: url('https://www.tasteandtellblog.com/wp-content/uploads/2021/09/Butternut-Squash-Soup-1.jpg');">Butternut Squash Soup</p>
-    <p class="recipe" style="background-image: url('https://eatlittlebird.com/wp-content/uploads/2013/06/coffee-and-walnut-cake-14.jpg');">Coffee Walnut Cake</p>
-    <p class="recipe" style="background-image: url('https://www.jocooks.com/wp-content/uploads/2019/03/skillet-shepherds-pie-1-20.jpg');">Shepard's Pie</p>
-    <p class="recipe" style="background-image: url('https://cdn.pickuplimes.com/cache/bf/06/bf06fbc390520753cdae35db37ccf671.jpg');">Coconut Red Lentil Daal</p>
-    <p class="recipe" style="background-image: url('https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fimage%2F2017%2F09%2Fmain%2Fautumn-glow-salad-1711p85.jpg%3Fitok%3DxsUVd68s');">Butternut Squash Lentil Salad</p>
-    <p class="recipe" style="background-image: url('https://images.immediate.co.uk/production/volatile/sites/2/2021/08/AppleCrumble-497cc31.jpg?resize=960,872?quality=90&resize=556,505');">Apple Crumble</p>
-    <p class="recipe" style="background-image: url('https://images.immediate.co.uk/production/volatile/sites/2/2015/10/15130.jpg');">Blue Cheese, Pear and Walnut Tart</p>    
-</div>
+      <div class="row row-cols-1 row-cols-md-4" id="cards">
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="https://www.ambitiouskitchen.com/wp-content/uploads/2021/09/Pumpkin-Spice-Latte-4.jpg" class="card-img-top" alt="Pumpkin Spiced Latte">
+            <div class="card-body">
+              <h5 class="card-title">Pumpkin Spiced Latte</h5>
+              <p class="card-text">The Ultimate Pumpkin Spiced Latte</p>
+              <a href="./Pumpkin2.html" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="https://www.sainsburysmagazine.co.uk/uploads/media/1800x1800/02/6882-Mushroom-stroganoff.jpg?v=1-0" class="card-img-top" alt="Mushroom Stroganoff">
+            <div class="card-body">
+              <h5 class="card-title">Mushroom Stroganoff</h5>
+              <p class="card-text">Easy Weekday Mushroom Stroganoff</p>
+              <a href="./recipe.html" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100 cards">
+            <img src="https://www.tasteandtellblog.com/wp-content/uploads/2021/09/Butternut-Squash-Soup-1.jpg" class="card-img-top" class="card-img-top" alt="Butternut Squash Soup">
+            <div class="card-body">
+              <h5 class="card-title">Butternut Squash Soup</h5>
+              <p class="card-text">Impress With Our Bangin' Butternut Squash Soup</p>
+              <a href="./butternut.html" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card h-100">
+            <img src="https://eatlittlebird.com/wp-content/uploads/2013/06/coffee-and-walnut-cake-14.jpg" class="card-img-top" alt="Coffee Walnut Cake">
+            <div class="card-body">
+              <h5 class="card-title">Coffee Walnut Cake</h5>
+              <p class="card-text">Our Tried and Tested Coffee Walnut Cake</p>
+              <a href="#" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+            <div class="card h-100">
+              <img src="https://www.jocooks.com/wp-content/uploads/2019/03/skillet-shepherds-pie-1-20.jpg" class="card-img-top" alt="Shepherd's Pie">
+              <div class="card-body">
+                <h5 class="card-title">Shepherd's Pie</h5>
+                <p class="card-text">This Shepherd's Pie Recipe is Pure Nostolgia</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src=" https://cdn.pickuplimes.com/cache/bf/06/bf06fbc390520753cdae35db37ccf671.jpg" class="card-img-top" alt="Coconut Red Lentil Daal">
+              <div class="card-body">
+                <h5 class="card-title">Coconut Red Lentil Daal</h5>
+                <p class="card-text">Coconut Red Lentil Daal</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimg1.cookinglight.timeinc.net%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F4_3_horizontal_-_1200x900%2Fpublic%2Fimage%2F2017%2F09%2Fmain%2Fautumn-glow-salad-1711p85.jpg%3Fitok%3DxsUVd68s" class="card-img-top" alt="Butternut Squash Lentil Salad">
+              <div class="card-body">
+                <h5 class="card-title">Butternut Squash Lentil Salad</h5>
+                <p class="card-text">Savour the Last of the Summer With This Butternut Squash Lentil Salad</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="https://images.immediate.co.uk/production/volatile/sites/2/2021/08/AppleCrumble-497cc31.jpg?resize=960,872?quality=90&resize=556,505" class="card-img-top" alt="Apple Crumble">
+              <div class="card-body">
+                <h5 class="card-title">Apple Crumble</h5>
+                <p class="card-text">This Apple Crumble is Like a Big Hug</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card h-100">
+              <img src="https://images.immediate.co.uk/production/volatile/sites/2/2015/10/15130.jpg" class="card-img-top" alt="Blue Cheese, Pear and Walnut Tart">
+              <div class="card-body">
+                <h5 class="card-title">Blue Cheese, Pear and Walnut Tart</h5>
+                <p class="card-text">This Simple Recipe Makes Fancy Food Feel Easy!</p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      
+
+
+
 
 <footer>
-    <ul id="footer_left">
-        <li>About Us</li>
-        <li>FAQ</li>
-    </ul>
-    <ul id="footer_right">
-        <li>Contact Us</li>
-        <li>Jobs</li>
-    </ul>
+  <ul class=footer_left>
+    <li>About Us</li>
+    <li>FAQ</li>
+    <li>Contact Us</li>
+    <li>Jobs</li>
+</ul>
 </footer>
 </body>
 </html>
