@@ -1,341 +1,355 @@
 * {
-    font-family: "Playfair Display", serif;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(240 240 240);
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: firebrick;
-  }
-  
-  ul li {
-    display: inline block;
-    margin-right: 10px;
-    float: left;
-  }
-  
-  p {
-    margin-top: 0;
-    margin-bottom: 1.5rem;
-    max-width: 40em; /* Set width so text does not run on, easier to read*/
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
-    margin: 0;
-    margin-bottom: 1.38rem; /* keeping margin bottom, can modify margin top if needed */
-    text-transform: capitalize; /* each word in heading starts with capital */
-  }
-  
-  .navbar_options {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  
-  .img {
-    width: 100%;
-    display: block; /* removes weird empty space at the bottom */
-    object-fit: cover; /* prevented image from being distorted */
-  }
-  
-  .page {
-    width: 90vw; /* screen width */
-    max-width: 1120px; /* ensures everything on the page is lined up */
-    margin: 0 auto;
-  }
-  
+  font-family: "Playfair Display", serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(240 240 240);
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: firebrick;
+}
+
+ul li {
+  display: inline block;
+  margin-right: 10px;
+  float: left;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  max-width: 40em; /* Set width so text does not run on, easier to read*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+  margin-bottom: 1.38rem; /* keeping margin bottom, can modify margin top if needed */
+  text-transform: capitalize; /* each word in heading starts with capital */
+}
+
+.navbar_options {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.img {
+  width: 100%;
+  display: block; /* removes weird empty space at the bottom */
+  object-fit: cover; /* prevented image from being distorted */
+}
+
+.page {
+  width: 90vw; /* screen width */
+  max-width: 1120px; /* ensures everything on the page is lined up */
+  margin: 0 auto;
+}
+
+.recipe-hero {
+  display: grid;
+  gap: 3rem;
+}
+
+.recipe-hero-img {
+  height: 300px;
+  border-radius: 0.25rem; /* rounding on the corner of the image */
+}
+.recipe-info p {
+  color: #475569;
+}
+
+.recipe-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+  text-align: center;
+}
+.recipe-icons i {
+  font-size: 1.5rem;
+  color: #009916;
+}
+.recipe-icons h5,
+.recipe-icons p {
+  margin-bottom: 0;
+  font-size: 0.85em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(240 240 240);
+}
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: firebrick;
+}
+ul li {
+  display: inline block;
+  margin-right: 10px;
+  float: left;
+}
+#search {
+  margin: 10px;
+}
+.header_right {
+  float: right;
+}
+.title_index {
+  margin-top: 5px;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  font-size: 100px;
+  line-height: 2;
+  color: rgb(231, 231, 231);
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+    url("https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img,w_1000,h_423/https://www.useyournoodles.eu/wp-content/uploads/how-to-take-the-perfect-action-shot-in-food-photograpy-01-Custom-1000x423.jpg");
+}
+.title_autumn {
+  margin-top: 5px;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  font-size: 150px;
+  color: rgb(231, 231, 231);
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+    url("https://www.dailyherald.com/storyimage/DA/20190217/BUSINESS/190219316/AR/0/AR-190219316.jpg&updated=201902151104&MaxW=900&maxH=900&noborder&Q=80");
+}
+.title_pumpkin {
+  margin-top: 5px;
+  padding: 45px;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  font-size: 100px;
+  color: rgb(231, 231, 231);
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+    url("https://www.ambitiouskitchen.com/wp-content/uploads/2021/09/Pumpkin-Spice-Latte-4.jpg");
+  flex-direction: initial;
+  flex-wrap: initial;
+  justify-content: initial;
+  align-items: initial;
+  align-content: initial;
+}
+
+.title_mushroom {
+  margin-top: 5px;
+  padding: 45px;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  font-size: 100px;
+  color: rgb(231, 231, 231);
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+    url("https://realfood.tesco.com/media/images/RFO-1400x919-Mushroom-stroganoff-7c39d779-ccc9-4159-8407-e39fb11a07b9-0-1400x919.jpg");
+}
+h1 img {
+  opacity: 70%;
+}
+a:link {
+  text-decoration: none;
+  color: orangered;
+}
+a:visited {
+  color: orangered;
+}
+a:hover {
+  color: seashell;
+}
+a:active {
+  color: rgb(107, 21, 21);
+}
+.btn {
+  background-color: floralwhite;
+  border-color: darkgray;
+}
+#introduction {
+  background-color: rgb(240 240 240);
+  width: 100%;
+  padding: 30px 100px;
+  margin: 5px;
+}
+.introduction {
+  width: 100%;
+  padding: 0 100px 0 100px;
+  font-size: 25px;
+  margin: 5px;
+}
+.stats {
+  width: 100%;
+  padding: 0 100px 0 100px;
+  padding: 5px;
+  margin: 5px;
+}
+.instructions {
+  width: 100%;
+  padding: 0 100px 0 100px;
+  margin: 5px;
+}
+.ingredients {
+  padding: 0 100px;
+}
+h4 {
+  width: 100%;
+  padding: 0 100px;
+  margin: 5px;
+}
+.footer ul li {
+  width: 100%;
+  display: inline;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 50px;
+}
+
+.title_pumpkin {
+  margin-top: 5px;
+  padding: 45px;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  font-size: 100px;
+  color: rgb(231, 231, 231);
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
+    url("https://www.ambitiouskitchen.com/wp-content/uploads/2021/09/Pumpkin-Spice-Latte-4.jpg");
+  flex-direction: initial;
+  flex-wrap: initial;
+  justify-content: initial;
+  align-items: initial;
+  align-content: initial;
+}
+@media screen and (min-width: 992px) {
   .recipe-hero {
-    display: grid;
-    gap: 3rem;
-  }
-  
-  .recipe-hero-img {
-    height: 300px;
-    border-radius: 0.25rem; /* rounding on the corner of the image */
-  }
-  .recipe-info p {
-    color: #475569;
-  }
-  
-  .recipe-icons {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    margin: 2rem 0;
-    text-align: center;
-  }
-  .recipe-icons i {
-    font-size: 1.5rem;
-    color: #009916;
-  }
-  .recipe-icons h5,
-  .recipe-icons p {
-    margin-bottom: 0;
-    font-size: 0.85em;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(240 240 240);
-  }
-  li a {
-    display: block;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  li a:hover {
-    background-color: firebrick;
-  }
-  ul li {
-    display: inline block;
-    margin-right: 10px;
-    float: left;
-  }
-  #search {
-    margin: 10px;
-  }
-  .header_right {
-    float: right;
-  }
-  .title_index {
-    margin-top: 5px;
-    width: 100%;
-    height: 250px;
-    text-align: center;
-    font-size: 100px;
-    line-height: 2;
-    color: rgb(231, 231, 231);
-    background-position: center;
-    background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
-      url("https://sp-ao.shortpixel.ai/client/to_webp,q_lossless,ret_img,w_1000,h_423/https://www.useyournoodles.eu/wp-content/uploads/how-to-take-the-perfect-action-shot-in-food-photograpy-01-Custom-1000x423.jpg");
-  }
-  .title_autumn {
-    margin-top: 5px;
-    width: 100%;
-    height: 250px;
-    text-align: center;
-    font-size: 150px;
-    color: rgb(231, 231, 231);
-    background-position: center;
-    background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
-      url("https://www.dailyherald.com/storyimage/DA/20190217/BUSINESS/190219316/AR/0/AR-190219316.jpg&updated=201902151104&MaxW=900&maxH=900&noborder&Q=80");
-  }
-  .title_pumpkin {
-    margin-top: 5px;
-    padding: 45px;
-    width: 100%;
-    height: 250px;
-    text-align: center;
-    font-size: 100px;
-    color: rgb(231, 231, 231);
-    background-position: center;
-    background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
-      url("https://www.ambitiouskitchen.com/wp-content/uploads/2021/09/Pumpkin-Spice-Latte-4.jpg");
-    flex-direction: initial;
-    flex-wrap: initial;
-    justify-content: initial;
-    align-items: initial;
-    align-content: initial;
-  }
-  h1 img {
-    opacity: 70%;
-  }
-  a:link {
-    text-decoration: none;
-    color: orangered;
-  }
-  a:visited {
-    color: orangered;
-  }
-  a:hover {
-    color: seashell;
-  }
-  a:active {
-    color: rgb(107, 21, 21);
-  }
-  .btn {
-    background-color: floralwhite;
-    border-color: darkgray;
-  }
-  #introduction {
-    background-color: rgb(240 240 240);
-    width: 100%;
-    padding: 30px 100px;
-    margin: 5px;
-  }
-  .introduction {
-    width: 100%;
-    padding: 0 100px 0 100px;
-    font-size: 25px;
-    margin: 5px;
-  }
-  .stats {
-    width: 100%;
-    padding: 0 100px 0 100px;
-    padding: 5px;
-    margin: 5px;
-  }
-  .instructions {
-    width: 100%;
-    padding: 0 100px 0 100px;
-    margin: 5px;
-  }
-  .ingredients {
-    padding: 0 100px;
-  }
-  h4 {
-    width: 100%;
-    padding: 0 100px;
-    margin: 5px;
-  }
-  .footer ul li {
-    width: 100%;
-    display: inline;
-    text-align: center;
-    margin-right: 10px;
-    padding-top: 50px;
-  }
-  
-  .title_pumpkin {
-    margin-top: 5px;
-    padding: 45px;
-    width: 100%;
-    height: 250px;
-    text-align: center;
-    font-size: 100px;
-    color: rgb(231, 231, 231);
-    background-position: center;
-    background-size: cover;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),
-      url("https://www.ambitiouskitchen.com/wp-content/uploads/2021/09/Pumpkin-Spice-Latte-4.jpg");
-    flex-direction: initial;
-    flex-wrap: initial;
-    justify-content: initial;
-    align-items: initial;
-    align-content: initial;
-  }
-  @media screen and (min-width: 992px) {
-    .recipe-hero {
-      grid-template-columns: 4fr 5fr;
-      align-items: center;
-    }
-  }
-  .recipe-content {
-    padding: 3rem 0;
-    display: grid;
-    gap: 2rem 5rem;
-  }
-  @media screen and (min-width: 992px) {
-    .recipe-content {
-      grid-template-columns: 2fr 1fr;
-    }
-  }
-  
-  .single-instruction header {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 1.5rem;
+    grid-template-columns: 4fr 5fr;
     align-items: center;
   }
-  .single-instruction header p {
-    text-transform: uppercase;
-    font-weight: 600;
-    color: #009916;
-    margin-bottom: 0;
+}
+.recipe-content {
+  padding: 3rem 0;
+  display: grid;
+  gap: 2rem 5rem;
+}
+@media screen and (min-width: 992px) {
+  .recipe-content {
+    grid-template-columns: 2fr 1fr;
   }
-  
-  .single-instruction header div {
-    height: 2px;
-    background: #cbd5e1;
+}
+
+.single-instruction header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+.single-instruction header p {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #009916;
+  margin-bottom: 0;
+}
+
+.single-instruction header div {
+  height: 2px;
+  background: #cbd5e1;
+}
+
+.second-column {
+  display: grid;
+  row-gap: 2rem;
+}
+
+.single-ingredient {
+  border-bottom: 2px solid #cbd5e1;
+  padding-bottom: 0.75rem;
+}
+
+#search {
+  margin: 10px;
+}
+
+.header_right {
+  float: right;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 75px;
   }
-  
-  .second-column {
-    display: grid;
-    row-gap: 2rem;
+  .title_index {
+    font-size: 75px;
   }
-  
-  .single-ingredient {
-    border-bottom: 2px solid #cbd5e1;
-    padding-bottom: 0.75rem;
+  .title_autumn {
+    font-size: 75px;
   }
-  
-  #search {
-    margin: 10px;
+  .title_pumpkin {
+    font-size: 75px;
   }
-  
-  .header_right {
-    float: right;
+  ul {
+    font-size: 20px;
+    width: 100%;
   }
-  
-  @media only screen and (max-width: 768px) {
-    h1 {
-      font-size: 75px;
-    }
-    .title_index {
-      font-size: 75px;
-    }
-    .title_autumn {
-      font-size: 75px;
-    }
-    .title_pumpkin {
-      font-size: 75px;
-    }
-    ul {
-      font-size: 20px;
-      width: 100%;
-    }
-    p {
-      font-size: 16px;
-      width: 100%;
-    }
+  p {
+    font-size: 16px;
+    width: 100%;
   }
-  
-  @media only screen and (max-width: 420px) {
-    h1 {
-      font-size: 50px;
-    }
-    .title_index {
-      font-size: 50px;
-    }
-    .title_autumn {
-      font-size: 50px;
-    }
-    .title_pumpkin {
-      font-size: 50px;
-      height: 300px;
-    }
-    ul {
-      font-size: 16px;
-      width: 100%;
-    }
-    p {
-      font-size: 12px;
-      width: 100%;
-    }
-    .introduction {
-      font-size: 20px;
-    }
+}
+
+@media only screen and (max-width: 420px) {
+  h1 {
+    font-size: 50px;
   }
+  .title_index {
+    font-size: 50px;
+  }
+  .title_autumn {
+    font-size: 50px;
+  }
+  .title_pumpkin {
+    font-size: 50px;
+    height: 300px;
+  }
+  ul {
+    font-size: 16px;
+    width: 100%;
+  }
+  p {
+    font-size: 12px;
+    width: 100%;
+  }
+  .introduction {
+    font-size: 20px;
+  }
+}
